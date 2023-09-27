@@ -1,6 +1,6 @@
 import unittest
 
-from area import Area
+from tests.area import Area
 
 
 
