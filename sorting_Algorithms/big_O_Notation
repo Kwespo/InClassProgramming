@@ -1,0 +1,4 @@
+big o notation is a way of finding how long an algorithm will take to finish. 
+
+
+bubble sorinting is equal in time to x^2. So if we have 10 numbers (that being x = 10) we'll need to do 10 * 10 (100) calculations to sort the numbers.
