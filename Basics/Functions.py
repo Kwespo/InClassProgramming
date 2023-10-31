@@ -11,6 +11,9 @@ def Add_X_Y(x:float, y:float) -> float| str:
   except:
     return("The data you've given does not match the parameters of the function")
 
+exp = Add_X_Y(5, 7)
+print(exp)
+
 print(Add_X_Y(5,10))
 
 
