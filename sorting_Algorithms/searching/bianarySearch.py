@@ -10,7 +10,7 @@ I will need to sort the list, find the half by finding the Lowest point, upper p
 
 """
 
-target = 10
+target = 15
 
 listOfNumbers = [2, 6, 7, 4, 10, 66, 3, 69, 100]
 
@@ -33,3 +33,6 @@ while True:
   elif listOfNumbers[middle] == target:
     print(f"Found it! it is {middle}")
     break
+  
+  else:
+    print("The data you're searching for is not in the list. Please check you're input is correct and try again.")

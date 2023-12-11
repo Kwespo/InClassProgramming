@@ -17,7 +17,7 @@ print(f": {A} | B: {B} | C : {C} | are the INITIAL data")
 
 for _ in range(1,6): #it starts at 0 so you gotta do +1
   A= (C + B)
-  C = ( - B)
-  B = ( + B + C)
+  C = (A - B)
+  B = (A + B + C)
   
   print(f": {A} | B: {B} | C: {C} | are the results")
