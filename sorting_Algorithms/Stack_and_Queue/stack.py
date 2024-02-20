@@ -3,7 +3,7 @@ class Stack():
     self.stack = [] #Stack's variables
 
   def push(self, item : str):
-    self.stack.append(item) # Adds a new thing to the stack=
+    self.stack.append(item) # Adds a new thing to the stack
 
   def pop(self):
     if len(self.stack) == 0:
@@ -20,8 +20,14 @@ class Stack():
 stackOfItems = Stack()
 
 stackOfItems.push(5)
-stackOfItems.push(5)
-stackOfItems.push(5)
-stackOfItems.push(5)
+stackOfItems.push(6)
+stackOfItems.push(7)
+stackOfItems.push(8)
+
+# 5,6,7,8
+
+stackOfItems.pop()
+
+# 5,6,7
 
 stackOfItems.debugging()
