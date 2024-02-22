@@ -1,5 +1,6 @@
 #Functions are a subroutine
 
+            # X is a float    # Returns a float or string 
 def Add_X_Y(x:float, y:float) -> float| str:
   """
   Adding function taking TWO integer values.
